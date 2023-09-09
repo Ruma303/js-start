@@ -1,34 +1,31 @@
-//document.writeln("Ciao da js/index.js");
+//document.writeln("Codice JavaScript eseguito.");
 
-
+//% Commenti
 // Commento single line
+``
+/* Commento
+su più
+linee */
 
-/*
-Commento
-multilinea
-*/
-
+//% Prime funzioni di codice JavaScript
 //alert('Questo è un messaggio di avviso.');
-//const name = prompt("Come va?");
-/*
-const name = prompt('Come ti chiami?', 'Inserisci qui il tuo nome');
-console.log(name);
+
+//const name = prompt("Inserisci il tuo nome.");
+//const name = prompt('Come ti chiami?', 'Inserisci qui il tuo nome.'); /
+
+/* const name = prompt("Inserisci il tuo nome.");
 const result = confirm('Sei sicuro che sia questo il tuo vero nome?');
-console.log(result);
-if (result == true) {
-    console.log("Ciao " + name);
-}
-else {
-    console.log("Ritenta l'autenticazione");
-}
-*/
-//* Metodi Console
-/*
-console.log('Sono una stringa');
-console.log("10");
+result ? document.writeln('Ciao ' + name) :
+document.writeln('Identità non confermata! Riprova.'); */
+
+
+
+
+//% Metodi Console
+/* console.log('Sono una stringa');
+console.log(10);
 console.log(typeof console);
-console.log(typeof console.log);
-*/
+console.log(typeof console.log); */
 
 //console.clear();
 
